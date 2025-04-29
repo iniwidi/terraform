@@ -92,7 +92,7 @@ resource "aws_db_instance" "mysql" {
   engine               = "mysql"
   engine_version       = "8.0.35"
   instance_class       = "db.t3.micro"
-  db_name              = "webappdb"  # Ganti 'name' dengan 'db_name' untuk MySQL
+  db_name              = "MyWebApiDB"  # Ganti 'name' dengan 'db_name' untuk MySQL
   username             = var.db_username
   password             = var.db_password
   db_subnet_group_name = aws_db_subnet_group.default.name
