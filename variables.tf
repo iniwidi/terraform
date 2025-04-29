@@ -7,4 +7,4 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  default = "tempAdmin954*"
+  default = "!tempAdmin954*"
